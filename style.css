@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
